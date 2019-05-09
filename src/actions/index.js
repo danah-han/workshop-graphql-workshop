@@ -10,7 +10,8 @@ export const ActionTypes = {
 };
 
 const GITHUB_API = 'https://api.github.com/graphql';
-const API_KEY = '482c2fc0a9a04d6272ba6826f3892b0c7cb1ced1';
+// removed api key to not have it publicly posted
+const API_KEY = 'API_KEY';
 
 // initialize ApolloClient here
 const client = new ApolloClient({
